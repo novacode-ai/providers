@@ -1,0 +1,16 @@
+{
+  "name": "@novacode-ai/providers",
+  "version": "1.0.0",
+  "description": "Model provider routing for Nova Code",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^4.0.83",
+    "@novacode-ai/config": "workspace:*",
+    "@novacode-ai/types": "workspace:*"
+  }
+}
